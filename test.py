@@ -9,6 +9,9 @@ def test_sum():
 def test_multy():
     assert multy(2, 4) == 10
     assert multy(1, 9) == 90
+def main():
+    test_sum()
+    test_multy()
     
 if __name__ == "__main__":
     main()
