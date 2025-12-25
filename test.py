@@ -9,5 +9,5 @@ def test_multy():
     assert multy(2, 4) == 10
     
 if __name__ == "__main__":
-    main()
+    test_multy()
     
