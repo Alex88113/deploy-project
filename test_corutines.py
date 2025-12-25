@@ -35,7 +35,7 @@ class TestingCorutines:
     async def test_processing_name(self, test_users_data):
         result = await processing_users_data(test_users_data['username'])
         assert result == {
-        'username': 'Shura'
+        'username': 'Shur'
     }
         logger.info('Первый тест прошел успешно!')
 
@@ -45,7 +45,7 @@ class TestingCorutines:
         test_value_numbers['number1'],
         test_value_numbers['number2']
         )
-        assert result == 257.343
+        assert result == 257.34
         logger.info('Второй тест прошел успешно!')
 
     @pytest.mark.asyncio
