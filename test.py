@@ -1,3 +1,4 @@
+
 from app import sum, multy
 
 def test_sum():
@@ -7,6 +8,7 @@ def test_sum():
 
 def test_multy():
     assert multy(2, 4) == 10
+    assert multy(1, 9) == 90
     
 if __name__ == "__main__":
     test_multy()
