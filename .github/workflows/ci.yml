@@ -21,6 +21,8 @@ jobs:
         
     - name: Run tests
       run: python test.py
+    - name: Run tests async code
+      run: python test_corutines.py
       
   deploy:
     needs: test
