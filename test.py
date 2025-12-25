@@ -7,5 +7,7 @@ def test_sum():
 
 def test_multy():
     assert multy(2, 4) == 10
+    
 if __name__ == "__main__":
-    test_sum()
+    main()
+    
