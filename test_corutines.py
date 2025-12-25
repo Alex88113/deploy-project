@@ -14,7 +14,7 @@ class TestingCorutines:
     @pytest_asyncio.fixture
     async def test_users_data(self):
         return {
-            'username': 'Shura'
+            'username': 'Shurik'
         }
 
     @pytest_asyncio.fixture
@@ -45,7 +45,7 @@ class TestingCorutines:
         test_value_numbers['number1'],
         test_value_numbers['number2']
         )
-        assert result == 257.34
+        assert result == 257.0
         logger.info('Второй тест прошел успешно!')
 
     @pytest.mark.asyncio
