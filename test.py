@@ -7,8 +7,8 @@ def test_sum():
     print("All tests passed!")
 
 def test_multy():
-    assert multy(2, 4) == 10
-    assert multy(1, 9) == 90
+    assert multy(2, 4) == 8
+    assert multy(1, 9) == 9
 def main():
     test_sum()
     test_multy()
